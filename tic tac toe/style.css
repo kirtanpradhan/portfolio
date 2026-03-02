@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid black;
+  height: 450px;
+  width: 450px;
+  margin: 10px 0 0 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+.box {
+  border: 1px solid black;
+  align-content: center;
+  text-align: center;
+}
+button{
+  margin-top: 10px;  
+  margin-left: 10px;
+  width: 25%;
+  height: 5em;
+}

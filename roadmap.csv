@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Day,Week,Phase,Topic,08:00-11:00 (Theory),11:30-01:30 (Tutorial),02:30-05:30 (Build/Lab),06:30-08:30 (Review/Polish)\
+1,1,Foundation (JS),HTML & Flexbox,Learn Semantic HTML tags & Flexbox properties (justify/align),Code along with a Flexbox layout tutorial,Build a centered Profile Card using Flexbox,Refine CSS and read MDN docs\
+2,1,Foundation (JS),DOM Manipulation,Learn querySelector getElementById & innerText vs innerHTML,Watch DOM manipulation basics & type along,Build a button that changes paragraph text on click,Experiment with changing styles via JS\
+3,1,Foundation (JS),Events,Learn addEventListener (click/hover) & Event Bubbling,Code along: changing colors on button clicks,Build a simple 'Drum Kit' (play sound on key press),Review Event Listeners\
+4,1,Foundation (JS),Arrays & Loops,Learn For loops forEach & Array of Objects,Watch tutorial on looping through data to display HTML,Build a User List that renders from a JS Array,Refactor loop code to be cleaner\
+5,1,Foundation (JS),ES6 Modern JS,Learn Arrow Functions Destructuring & Template Literals,Refactor previous code to use ES6 syntax,Rewrite Day 4's User List using ES6 features,Read about 'const' vs 'let' vs 'var'\
+6,1,Foundation (JS),Mini-Project,Review logic flow and state,Setup project folder and HTML structure,PROJECT: Build a Score Keeper (P1 vs P2),Style the Score Keeper to look professional\
+7,1,Foundation (JS),REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+8,2,Async JS,Callbacks & Promises,Understand 'Asynchronous' concept & Promises,Watch tutorial on .then() and .catch(),Experiment: Write a function that 'waits' 2 seconds,Read about the Event Loop\
+9,2,Async JS,Async / Await,Learn async/await syntax & try/catch blocks,Refactor Promise code to use Async/Await,Build a simple delay function using await,Review error handling\
+10,2,Async JS,Fetch API,Learn how to Fetch data from a URL (JSON),Code along: Fetching data from a public API,Build a 'Random Joke Generator' button,Style the joke display\
+11,2,Async JS,Array Methods,Master .map() .filter() .reduce(),Watch specific tutorials on these 3 methods,Challenge: Filter odd numbers & double even ones,Practice .map() on an array of objects\
+12,2,Async JS,LocalStorage,Learn how browser storage works (setItem/getItem),Code along: Saving a simple string to LocalStorage,Build a textbox that remembers text after refresh,Review JSON.stringify vs JSON.parse\
+13,2,Async JS,Project Day,Review Fetch & Storage logic,Setup Weather API key (OpenWeatherMap),PROJECT: Weather Dashboard (Fetch + Save City),Polish UI and handle API errors\
+14,2,Async JS,REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+15,3,React Basics,React Setup,Node install & create-react-app / Vite structure,Watch 'React for Beginners' setup video,Create 'Hello World' component & explore files,Clean up default boilerplate code\
+16,3,React Basics,JSX & Components,Learn JSX rules & Component structure,Code along: Splitting UI into components,Build a static page using 3-4 separate components,Experiment with CSS in React\
+17,3,React Basics,Props,Learn passing data Parent -> Child,Code along: Passing titles/colors via Props,Build a generic 'Button' component used 3 times,Review Destructuring Props\
+18,3,React Basics,State (useState),Understand State vs Props & useState hook,Code along: Counter App,Build a 'Light/Dark Mode' toggle,Review Rules of Hooks\
+19,3,React Basics,Lists & Keys,Learn .map() for rendering lists in React,Code along: Rendering a list of names,Build a dynamic list where you can remove items,Debug 'unique key' errors\
+20,3,React Basics,Forms,Learn Controlled Components & Inputs,Code along: Handling input changes with State,Build a Signup Form (no backend yet),Validation (disable submit if empty)\
+21,3,React Basics,Project Day,Review State & Forms,Setup To-Do App structure,PROJECT: To-Do List (Add/Delete/Mark Done),Style the To-Do list\
+22,4,React Magic,useEffect Hook,Learn Component Lifecycle & dependency array,Code along: console.log when state changes,Experiment: Run code ONLY on mount vs update,Read React Docs on Effects\
+23,4,React Magic,Data Fetching,Learn fetching data inside useEffect,Code along: Fetch users from API in React,Build a component that loads a list of Users,Handle 'Loading' and 'Error' states\
+24,4,React Magic,React Router,Learn React Router DOM setup & Link,Code along: Setting up Navbar and Pages,Build a multi-page site (Home/About/Contact),Review Single Page Application concept\
+25,4,React Magic,Dynamic Routes,Learn URL params (:id) and useParams,Code along: Clicking user to go to Profile Page,Build a 'Product Detail' page template,Review passing data via URL\
+26,4,React Magic,Styling,Learn CSS Modules or Tailwind CSS basics,Watch Tailwind crash course,Refactor a previous project with Tailwind,Play with Flexbox/Grid in Tailwind\
+27,4,React Magic,Project Day,Review Router & Fetching,Setup Recipe App structure,PROJECT: Recipe Finder (Search API + Details Page),Polish navigation and transitions\
+28,4,React Magic,REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+29,5,Advanced State,Context API Intro,Understand Prop Drilling problem,Watch Context API explanation,Refactor a deep prop chain to use Context,Read React Docs on Context\
+30,5,Advanced State,useContext Hook,Learn creating & consuming Context,Code along: Global Theme (Dark Mode) Provider,Build a UserContext to store 'fake' login info,Review Provider pattern\
+31,5,Advanced State,useReducer (Opt),Learn Reducer pattern for complex state,Code along: Counter with Reducer,Build a complex form using reducer,Compare useState vs useReducer\
+32,5,Advanced State,Custom Hooks,Learn how to extract logic into own hooks,Code along: useFetch hook,Build a useWindowSize hook,Refactor previous fetch code\
+33,5,Advanced State,Refactoring,Review previous To-Do App code,Plan the refactor,Refactor To-Do App to use Context for tasks,Clean up code comments\
+34,5,Advanced State,Project Day,Review Global State,Setup Shopping Cart structure,PROJECT: Shopping Cart (Add items / Global Cart),Polish Cart Modal UI\
+35,5,Advanced State,REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+36,6,Backend (Node),Node.js Basics,Understand Runtime & Modules (CommonJS),Code along: File System (fs) operations,Build a script that writes a text file,Read Node.js Docs\
+37,6,Backend (Node),Express Server,Learn Express setup & Basic Routing,Code along: Hello World Server,Build endpoints: GET /home and GET /about,Test with Browser\
+38,6,Backend (Node),REST API & Postman,Understand REST verbs (GET POST PUT DELETE),Watch Postman crash course,Practice sending requests to your server via Postman,Review Status Codes (200/404/500)\
+39,6,Backend (Node),Middleware,Learn 'app.use' and Request processing,Code along: Logger middleware,Build a middleware that checks for a password,Read about Express Middleware\
+40,6,Backend (Node),POST & Body Parser,Learn req.body and receiving JSON,Code along: POST request to add data,Build an endpoint that accepts a User Object,Debug 'undefined' body errors\
+41,6,Backend (Node),Project Day,Review Express & Arrays,Setup Server project,PROJECT: In-Memory User API (CRUD with Array),Test all routes with Postman\
+42,6,Backend (Node),REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+43,7,Database (Mongo),NoSQL & Atlas,Understand SQL vs NoSQL & Collections,Setup MongoDB Atlas Cloud Account,Connect Compass/VSCode to Atlas,Browse sample data\
+44,7,Database (Mongo),Mongoose,Learn Mongoose ODM & Schemas,Code along: Define a User Schema,Write a script to save one user to DB,Review Data Types\
+45,7,Database (Mongo),CRUD - Create/Read,Learn Model.find() and Model.create(),Code along: Fetching data from DB to Express,Build GET /users and POST /users routes,Test with Postman\
+46,7,Database (Mongo),CRUD - Update/Delete,Learn Model.findByIdAndUpdate/Delete,Code along: Updating user data,Build PUT and DELETE routes,Handle 'ID not found' errors\
+47,7,Database (Mongo),Connecting It All,Review Full Backend flow,Code along: Connecting Express to Mongo,Refactor Day 41 API to use real Database,Review Environment Variables (.env)\
+48,7,Database (Mongo),Project Day,Review Mongoose & Express,Setup Task Manager Backend,PROJECT: Task API (Save/Load tasks to Mongo),Test full CRUD flow\
+49,7,Database (Mongo),REST DAY,Rest/Light Reading,Rest,Rest,Plan next week\
+50,8,Full Stack,Integration (CORS),Understand Client-Server connection & CORS,Code along: Fetching your own API from React,Connect React Frontend to Express Backend,Debug Network tab\
+51,8,Full Stack,Auth Concepts,Understand Authentication vs Authorization,Watch Auth flow (Login/Register) theory,Build simple 'Fake Auth' (check username exists),Read about BCrypt (Hashing)\
+52,8,Full Stack,JWT (Tokens),Understand JSON Web Tokens & Cookies,Code along: Generating a Token on Login,Implement 'Protected Routes' in Backend,Review Security basics\
+53,8,Full Stack,Deployment,Learn Vercel (Front) & Render (Back),Watch Deployment walkthrough,Deploy Frontend and Backend separately,Fix Production Environment Variables\
+54,8,Full Stack,Final Project Start,Plan Social Media Feed Architecture,Setup Repo / Frontend / Backend,Start coding: Backend Models & Routes,Commit code to Git\
+55,8,Full Stack,Final Project Build,Focus on React Frontend integration,Connect Forms to Backend,Build Feed and Posting functionality,Style and Polish\
+56,8,Full Stack,Final Project Finish,Testing & Bug Fixing,Deploy final version,PROJECT COMPLETE: Social Media App,CELEBRATE!}

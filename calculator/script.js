@@ -1,10 +1,11 @@
+const num = document.querySelector('button');
+const display = document.querySelector('#display');
+// console.log(num);
 
-function clicked(num){
-    let disp = document.getElementById(num);
+num.addEventListener('click', getValue);
+
+function getValue(e){
+    // console.log(e.target.value);
+    const val = e.target.value;
+    display.appendChild(val);
 }
-
-disp.addEventListener("click", function(){
-    document.getElementById("display").innerText = disp.value;
-});
-
-
